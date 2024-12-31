@@ -1,0 +1,31 @@
+@font-face {font-family: AlteHaasGroteskBold; src: url(AlteHaasGroteskBold.ttf);}
+@font-face {font-family: AlteHaasGroteskRegular; src: url(AlteHaasGroteskRegular.ttf);}
+@font-face {font-family: BeachpleaseScript; src: url(BeachpleaseScript.ttf);}
+
+#wrapper {
+margin: auto;
+}
+
+ nav {
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 25px 50px;
+  max-width: 200px;
+  padding: 25px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: AlteHaasGroteskBold;
+  
+}
+
+h1 {
+  font-family: BeachpleaseScript;
+}
+
+p, a {
+  font-family: AlteHaasGroteskRegular;
+}
